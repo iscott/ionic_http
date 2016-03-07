@@ -1,0 +1,13 @@
+<ion-view view-title="Bowties">
+  <ion-content>
+    <div class="list">
+      <a ng-repeat="bowtie in bowties" class="item item-thumbnail-left" href="#">
+        <img ng-src={{bowtie.image_url}}>
+        <b>Pattern:</b> {{bowtie.pattern}}<br>
+        <b>Material:</b> {{bowtie.material}}<br>
+        <b>Style:</b> {{bowtie.style}}
+        <p>{{bowtie.description}}</p>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>
