@@ -52,14 +52,14 @@ By the end of this lesson, you will be able to:
 
 ##Objects (cont)
 ### Constructors
-	function person(first, last, age, eye) {
+	function Person(first, last, age, eye) {
 	    this.firstName = first;
 	    this.lastName = last;
 	    this.age = age;
 	    this.eyeColor = eye;
 	}
 
-	var bob = new person("Bob", "Smith", 50, "blue");
+	var bob = new Person("Bob", "Smith", 50, "blue");
 
 ---
 
